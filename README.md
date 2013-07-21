@@ -1,11 +1,11 @@
 park_mail
 =========
 
-Sending Mail via SMTP
+Sending e-Mail via SMTP
 
 ## Park Mailer
 
-Send mail using SMTP
+Sending e-Mail via SMTP
 
 ## Install
 
@@ -13,7 +13,7 @@ To install park_mail you must first have both Node.js and NPM installed, both of
 
 Once NPM is installed, simply install Park Mailer by executing the following from the command line:
 
-  npm install park_mail -g
+  /*npm install park_mail -g*/ not release yet
 
 
 ## Command Line Usage
