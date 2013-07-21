@@ -1,0 +1,52 @@
+{
+  "name": "park_mail",
+  "description": "Send e-mails via SMTP module , unicode supported.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pakrulizwan Pauzee"
+  },
+  "maintainers": [
+    {
+      "name": "pakrulizwan",
+      "email": "pakrulizwan@yahoo.com"
+    }
+  ],
+  "homepage": "https://github.com/pakrulizwan/park_mail",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pakrulizwan/park_mail.git"
+  },
+  "scripts": {
+    "test": "nodeunit test/"
+  },
+  "main": "./lib/mailer",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pakrulizwan/park_mail/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "mailcomposer": "~0.2",
+    "simplesmtp": "~0.2 || ~0.3"
+  },
+  "devDependencies": {
+    "nodeunit": "*"
+  },
+  "engines": {
+    "node": ">=0.1.0"
+  },
+  "keywords": [
+    "e-mail",
+    "mime",
+    "email",
+    "mail",
+    "sendmail",
+    "STMP"
+  ],
+  "readme": "park_mail\n=========\n\nSending e-Mail via SMTP\n\n## Park Mailer\n\nSending e-Mail via SMTP\n\n## Install\n\nTo install park_mail you must first have both Node.js and NPM installed, both of which are outside the scope of this tool. See the [Node.js Website](http://nodejs.org) for details on how to install Node.js. Personaly I am found of Tim Caswell's excelent [NVM](https://github.com/creationix/nvm) tool for insalling and managing node.\n\nOnce NPM is installed, simply install Park Mailer by executing the following from the command line:\n\n  /*npm install park_mail -g*/ not release yet\n\n\n## Command Line Usage\n\nNot available yet.\n\n## Programatic Use\n\nNot available yet.\n\n## Example Use Cases\n\nNot available yet.\n\n## The MIT License\n\nCopyright (c) Pakrulizwan Pauzee\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/pakrulizwan/park_mail/issues"
+  }
+}
