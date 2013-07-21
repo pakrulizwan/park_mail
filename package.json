@@ -27,14 +27,13 @@
     }
   ],
   "dependencies": {
-    "mailcomposer": "~0.2",
-    "simplesmtp": "~0.2 || ~0.3"
+    "nodemailer": "~0.5"
   },
   "devDependencies": {
     "nodeunit": "*"
   },
   "engines": {
-    "node": ">=0.6.0"
+    "node": ">=0.8.0"
   },
   "keywords": [
     "e-mail",
